@@ -54,6 +54,7 @@ let g:airline_powerline_fonts=1
 " Key bindings
 inoremap <silent>jj <ESC>
 noremap <silent> <LocalLeader>nt :NERDTreeToggle<CR>
+noremap <silent> <LocalLeader>nf :NERDTreeFind<CR>
 noremap <silent> <LocalLeader>ff :CtrlP<CR>
 noremap <silent> <LocalLeader>be :CtrlPBuffer<CR>
 noremap <silent> <LocalLeader>lo :!/Applications/love.app/Contents/MacOS/love .<CR>
